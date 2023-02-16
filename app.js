@@ -6,7 +6,7 @@ generar.addEventListener('click',(e)=>{
     if (imagenPrompt.value.trim() == '') {
         return
     }
-    fetch('https://api-owmj.onrender.com/',{
+    fetch('https://api-5enq.onrender.com/',{
         method:'POST',
         body:JSON.stringify({
             imagenPrompt:imagenPrompt.value
