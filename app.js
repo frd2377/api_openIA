@@ -15,8 +15,8 @@ generar.addEventListener('click',(e)=>{
     .then(res => res.json())
     .then(data => console.log(data))
     .then(()=>{
-        redireccion.click()
         imagenPrompt.value = ''
+        redireccion.click()
     })
 })
 
